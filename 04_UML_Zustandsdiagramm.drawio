@@ -1,0 +1,52 @@
+<mxfile host="65bd71144e">
+    <diagram id="5uck17KiidR7LEDtchv_" name="Seite-1">
+        <mxGraphModel dx="1165" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="sm: Ventilator" style="shape=umlFrame;whiteSpace=wrap;html=1;width=90;height=30;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="70" width="640" height="390" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="shape=ellipse;html=1;fillColor=strokeColor;fontSize=18;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="160" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="shape=mxgraph.sysml.actFinal;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="160" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Stufe 1&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:left;&quot;&gt;&lt;br&gt;&lt;b&gt;do &lt;/b&gt;/ langsames Drehen&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="shape=mxgraph.sysml.simpleState;html=1;overflow=fill;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="140" width="150" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Stufe 2&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;text-align:left;&quot;&gt;&lt;br&gt;&lt;b&gt;do &lt;/b&gt;/ schnelles Drehen&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="shape=mxgraph.sysml.simpleState;html=1;overflow=fill;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="320" width="150" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="ausschalten/aus()" style="edgeStyle=none;html=1;endArrow=open;endSize=12;strokeWidth=1;verticalAlign=bottom;exitX=0.998;exitY=0.432;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7" target="4">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="520" y="184.5" as="sourcePoint"/>
+                        <mxPoint x="680" y="184.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="stufe 1 gewählt/st1()" style="edgeStyle=none;html=1;endArrow=open;endSize=12;strokeWidth=1;verticalAlign=bottom;" edge="1" parent="1" source="3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="210" y="179.5" as="sourcePoint"/>
+                        <mxPoint x="370" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="stufe 2 gewählt/st2()" style="edgeStyle=none;html=1;endArrow=open;endSize=12;strokeWidth=1;verticalAlign=bottom;entryX=0.064;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="380" y="230" as="sourcePoint"/>
+                        <mxPoint x="520" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="stufe 1 gewählt/st1()" style="edgeStyle=none;html=1;endArrow=open;endSize=12;strokeWidth=1;verticalAlign=bottom;exitX=0.925;exitY=-0.043;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="510" y="310" as="sourcePoint"/>
+                        <mxPoint x="510" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="sm = state machine" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="115" y="40" width="130" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
